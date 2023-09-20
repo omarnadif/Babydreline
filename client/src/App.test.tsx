@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
+import "bootstrap/dist/css/bootstrap.css";
 import App from './App';
 
 test('renders learn react link', () => {
