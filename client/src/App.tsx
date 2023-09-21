@@ -19,7 +19,7 @@ const Content: React.FC = () => {
         const result = await axios.get("http://localhost:3001/getClients");
         setClients(result.data);
       } catch (error) {
-        console.error("Errore durante il recupero dei dati:", error);
+        console.error("Error", error);
       }
     };
 
