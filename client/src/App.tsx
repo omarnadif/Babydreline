@@ -1,44 +1,22 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import Footer from "./components/footer";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
+import Content from "./components/content";
+import Footer from "./components/footer";
+import Permis from "./pages/permis";
+import Home from "./pages/home";
 
-interface Client {
-  id: number;
-  nom: string;
-  prenom: string;
-  telephone: string;
-  age: number;
-  ecole_id: number;
+function App() {
+  return (
+    <div id="app">
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home /> }/>
+        <Route path="/permis" element={<Permis />} />
+      </Routes>
+    </BrowserRouter>
+    </div>
+  );
 }
 
-const Content: React.FC = () => {
-  const [clients, setClients] = useState<Client[]>([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const result = await axios.get("http://localhost:3001/getClients");
-        setClients(result.data);
-      } catch (error) {
-        console.error("Error", error);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  return (
-    <>
-      <Navbar />
-      <div className="App">
-       <Content />
-      </div>
-      <Footer /> 
-          <h1>dd</h1>
-
-    </>
-  );
-};
-
-export default Content;
+export default App;
