@@ -16,3 +16,27 @@ a {
     width: 100%;
     height: 20rem;
 }
+.connexion{
+    margin: 2rem 14rem;
+    padding: 24em 7rem;
+}
+.connexion-logo{
+    height: 10rem;
+    width: 100%;
+    margin-bottom: 2rem!important;
+}
+.piedpage{
+    display: flex;
+    justify-content: center;
+}
+.faq-first{
+    font-size: xx-large;
+    font-style: bold;
+    color:#D35357;
+}
+.faq-page{
+    margin: 2rem 10rem;
+}
+.text-primary{
+    color: #D35357!important;
+}

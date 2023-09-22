@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
-import voiture from './img/pngegg.png';
+import voiture from '../img/pngegg.png';
+import Permis from "../pages/permis";
 
 
 
@@ -16,10 +17,10 @@ const content = () => {
     <div className="col-lg-6 mx-auto">
       <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="#"><button type="button" className="btn btn-primary btn-lg px-4 gap-3 btn-babydreline">Permis de conduire</button></a>
+       <a href="/permis"><button type="button" className="btn btn-primary btn-lg px-4 gap-3 btn-babydreline">Permis de conduire</button></a>
       
           <div>
-            <button type="button" className="btn btn-outline-secondary btn-lg px-4">Code de la route</button>
+            <a href='/code'><button type="button" className="btn btn-outline-secondary btn-lg px-4">Code de la route</button></a>
           </div>
         
 
