@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
 
 interface Client {
   id: number;
@@ -28,11 +30,13 @@ const Content: React.FC = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <div className="App">
        <Content />
       </div>
-      <Footer />
+      <Footer /> */}
+          <h1>dd</h1>
+
     </>
   );
 };
