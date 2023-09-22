@@ -1,0 +1,11 @@
+#app {
+    margin: 0;
+    padding: 0;
+    background-image: url('../src/img/maxresdefault.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+  }
+  
