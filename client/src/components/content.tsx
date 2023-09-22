@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import voiture from 'C:/Users/Loris/Desktop/L1_ECO_GETION/MDS/B3_DEV/Crazy_DEV/Projet/Babydreline/client/src/img/pngegg.png';
+import voiture from './img/pngegg.png';
 
 
 

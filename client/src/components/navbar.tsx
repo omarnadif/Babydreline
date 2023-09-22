@@ -1,7 +1,7 @@
 import React from 'react'
-import './style.css'
 import "bootstrap/dist/css/bootstrap.css";
-import logo from 'C:/Users/Loris/Desktop/L1_ECO_GETION/MDS/B3_DEV/Crazy_DEV/Projet/Babydreline/client/src/img/logo.png';
+import './style.css'
+import logo from '../img/logo.png';
 
 
 
