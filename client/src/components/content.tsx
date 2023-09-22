@@ -2,11 +2,6 @@ import React from 'react'
 import './style.css'
 import voiture from '../img/pngegg.png';
 
-
-
-
-
-
 const content = () => {
   return (
 <body className="bg-transparent content mt-5">
@@ -45,3 +40,4 @@ const content = () => {
 }
 
 export default content
+

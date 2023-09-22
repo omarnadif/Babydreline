@@ -1,6 +1,8 @@
 import React from 'react'
 import '../components/style.css'
 import voiture from '../img/pngegg.png';
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 
 
 
@@ -9,23 +11,42 @@ import voiture from '../img/pngegg.png';
 
 const Permis = () => {
   return (
-    <body className="content">
-       <div className="px-4 py-5 my-5 text-center">
-    <img className="voiture" src={voiture} alt="" width="72" height="57"></img>
-    <h1 className="display-5 fw-bold text-body-emphasis">Centered hero</h1>
-    <div className="col-lg-6 mx-auto">
-      <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="#"><button type="button" className="btn btn-primary btn-lg px-4 gap-3 btn-babydreline">Permis de conduire</button></a>
-      
-          <div>
-            <button type="button" className="btn btn-outline-secondary btn-lg px-4">Code de la route</button>
-          </div>
-      
+    <><Navbar />
+   <div className="container py-4">
+    
+     
+   
+
+    <div className="p-5 mb-4 bg-body-tertiary rounded-3">
+      <div className="container-fluid py-5">
+        <h1 className="display-5 fw-bold">Custom jumbotron</h1>
+        <p className="col-md-8 fs-4">Le permis de conduire : la clé de votre liberté sur la route ! Obtenez le vôtre dès aujourd'hui et ouvrez les portes d'un monde d'aventures et de possibilités. Ne laissez pas cette chance vous échapper, lancez-vous vers l'indépendance au volant !</p>
+        <button className="btn btn-primary btn-lg" type="button"> Le permis de conduire : la clé de votre liberté sur la route ! Obtenez le vôtre dès aujourd'hui et ouvrez les portes d'un monde d'aventures et de possibilités. Ne laissez pas cette chance vous échapper, lancez-vous vers l'indépendance au volant !</button>
       </div>
     </div>
+
+    <div className="row align-items-md-stretch">
+      <div className="col-md-6">
+        <div className="h-100 p-5 text-bg-dark rounded-3">
+          <h2>Change the background</h2>
+          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <button className="btn btn-outline-light" type="button">Example button</button>
+        </div>
+      </div>
+      <div className="col-md-6">
+        <div className="h-100 p-5 bg-body-tertiary border rounded-3">
+          <h2>Add borders</h2>
+          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <button className="btn btn-outline-secondary" type="button">Example button</button>
+        </div>
+      </div>
+    </div>
+
+    <footer className="pt-3 mt-4 text-body-secondary border-top">
+      © 2023
+    </footer>
   </div>
-    </body>
+    <Footer /></>
   )
 }
 
