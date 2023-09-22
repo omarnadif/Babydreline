@@ -14,7 +14,7 @@ const content = () => {
     </h1>
     <div className="col-lg-6 mx-auto">
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="#">
+        <a href="/rdv">
           <button type="button" className="btn btn-lg px-4 gap-3" style={{ 
             background: '#c01414',
             color: 'white',

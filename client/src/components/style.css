@@ -38,8 +38,13 @@ a {
 }
 .faq-page{
     margin: 2rem 10rem;
+    padding: 2rem 4rem;
+    background-color: #FFF;
 }
 .text-primary{
     color: #D35357!important;
+}
+.rendezvous{
+    margin-top: 40rem;
 }
 

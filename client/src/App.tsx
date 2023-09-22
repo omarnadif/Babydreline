@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Content from "./components/content";
 import Footer from "./components/footer";
-import Permis from "./pages/permis";
+import Apropos from "./pages/Apropos";
 import Login from "./pages/login";
 import Home from "./pages/home";
 import "./App.css";
@@ -18,7 +18,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home /> }/>
-        <Route path="/permis" element={<Permis />} />
+        <Route path="/permis" element={<Apropos />} />
         <Route path="/login" element={<Login />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/code" element={<Code />} />
