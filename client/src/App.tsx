@@ -30,11 +30,11 @@ const Content: React.FC = () => {
 
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <div className="App">
        <Content />
       </div>
-      <Footer /> */}
+      <Footer /> 
           <h1>dd</h1>
 
     </>
