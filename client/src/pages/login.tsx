@@ -83,7 +83,7 @@ const login = () => {
 
 
 
-              <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb"><section id="shadow-host-companion"></section></div></body></><Footer /></>
+              <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb"><section id="shadow-host-companion"></section></div></body></></>
   )
 }
 
